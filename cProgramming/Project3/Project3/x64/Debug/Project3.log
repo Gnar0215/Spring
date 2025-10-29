@@ -1,0 +1,12 @@
+﻿  ex_05.c
+  ex_06.c
+  코드를 생성하고 있습니다...
+C:\Users\정미르\Desktop\c_프로그래밍\Project3\ex_06.c(15,9): warning C4477: 'printf' : 서식 문자열 '%ld'에 'long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'time_t'입니다.
+      C:\Users\정미르\Desktop\c_프로그래밍\Project3\ex_06.c(15,9):
+      서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+      C:\Users\정미르\Desktop\c_프로그래밍\Project3\ex_06.c(15,9):
+      서식 문자열에서 '%Id'을(를) 사용하는 것이 좋습니다.
+      C:\Users\정미르\Desktop\c_프로그래밍\Project3\ex_06.c(15,9):
+      서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+  
+  Project3.vcxproj -> C:\Users\정미르\Desktop\c_프로그래밍\Project3\x64\Debug\Project3.exe
