@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\uC815\uBBF8\uB974\\Spring\\cProgramming\\theater\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{922BDB9D-D324-4B11-ADC3-324B5A426AB0}|theater.vcxproj|C:\\Users\\\uC815\uBBF8\uB974\\Spring\\cProgramming\\theater\\ex01.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{922BDB9D-D324-4B11-ADC3-324B5A426AB0}|theater.vcxproj|solutionrelative:ex01.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ex01.c",
+              "DocumentMoniker": "C:\\Users\\\uC815\uBBF8\uB974\\Spring\\cProgramming\\theater\\ex01.c",
+              "RelativeDocumentMoniker": "ex01.c",
+              "ToolTip": "C:\\Users\\\uC815\uBBF8\uB974\\Spring\\cProgramming\\theater\\ex01.c",
+              "RelativeToolTip": "ex01.c",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-08T11:25:21.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

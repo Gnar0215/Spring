@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/bootstrap.min.css"
+          th:href="@{/css/bootstrap.min.css}"
+          rel="stylesheet">
+    <title>Item Save Form</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="py-5 text-center">
+        <h2 class="font-monospace fw-bold">Item Save Form</h2>
+    </div>
+
+    <form action="item.html" method="post">
+        <div class="row fw-bold font-monospace">
+            <div class="col text-center">
+                <label for="itemName">Name</label>
+                <input type="text" id="itemName" name="itemName"
+                       class="form-control text-center"
+                       placeholder="Please Enter an Item Name.">
+            </div>
+        </div>
+
+        <div class="row mt-2 fw-bold font-monospace">
+            <div class="col text-center">
+                <label for="price">Price</label>
+                <input type="text" id="price" name="price"
+                       class="form-control text-center"
+                       placeholder="Please Enter an Item Price.">
+            </div>
+            <div class="col text-center">
+                <label for="quantity">Quantity</label>
+                <input type="text" id="quantity" name="quantity"
+                       class="form-control text-center"
+                       placeholder="Please Enter an Item Quantity.">
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="row">
+            <div class="col">
+                <button class="w-100 btn btn-warning btn-lg"
+                        type="submit">
+                    ⭕
+                </button>
+            </div>
+            <div class="col">
+                <button class="w-100 btn btn-danger btn-lg"
+                        onclick="location.href='items.html'"
+                        th:onclick="|location.href='@{/basic/items}'|"
+                        type="button">
+                    ❌
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
